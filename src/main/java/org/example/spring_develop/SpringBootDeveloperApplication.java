@@ -1,4 +1,4 @@
-package spring_develop;
+package org.example.spring_develop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
