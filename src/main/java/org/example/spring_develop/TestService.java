@@ -15,4 +15,10 @@ public class TestService {
 
         return memberRepository.findAll();
     }
+
+
+//    public List<Member> saveMember(Member member) {
+//        return memberRepository.save(member);
+//
+//    }
 }

@@ -1,7 +1,10 @@
 package org.example.spring_develop;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -13,7 +16,12 @@ public class TestController {
     private TestService testService;
 
     @GetMapping("/test")
-    public List<Member> getAllMembers() {
-        return testService.getAllMembers();
+    public ResponseEntity<List<Member>> getAllMembers() {
+        return ResponseEntity.ok(testService.getAllMembers());
     }
+
+//    @PostMapping("/test")
+//    public Member createMember(@RequestBody Member member) {
+//        return ResponseEntity.ok(testService.saveMember(member));
+//    }
 }
