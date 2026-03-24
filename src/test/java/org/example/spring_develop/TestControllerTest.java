@@ -15,8 +15,8 @@ import org.springframework.web.context.WebApplicationContext;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -52,5 +52,14 @@ class TestControllerTest {
         result.andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value(saveMember.getId()))
                 .andExpect(jsonPath("$[0].name").value(saveMember.getName()));
+    }
+
+    @Test
+    @DisplayName("")
+    public void getTestAPI() throws Exception {
+        mockMvc.perform(get("/test"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("Hello World"))
+                .andDo(print());
     }
 }
