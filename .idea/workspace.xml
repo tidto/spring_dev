@@ -4,39 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6417a9ab-f3a7-4ded-8c68-cd6ce9edbfb7" name="Changes" comment="Changes lombok, yml, h2db">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/IntelliLang.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+    <list default="true" id="cddedc20-3d58-4f9d-9c73-6b8b329878c9" name="변경" comment="JUnit 테스트 실습 코드 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/HelloWorldControler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/Mission0310.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/QuizController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/SpringBootDeveloperApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring_develop/TestService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JUnitCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JUnitQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitQuiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/spring_develop/QuizControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/spring_develop/TestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/MemberRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/TestControllerExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/TestControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/quizControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/insert-members.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/insert-members.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -46,17 +39,10 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring_dev" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
       </state>
     </system>
   </component>
@@ -64,17 +50,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ch04" />
+        <entry key="$PROJECT_DIR$" value="ch05-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,10 +67,40 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;tidto&quot;
+    &quot;assignee&quot;: &quot;minseo-00&quot;
   }
 }</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDOReymB87Q_fZa",
+        "number": 4
+      },
+      "lastSeen": 1775700903201
+    }
+  ]
+}]]></component>
   <component name="GitToolBoxStore">
+    <option name="branchesCleanupHistory">
+      <BranchesCleanupHistory>
+        <option name="history">
+          <list>
+            <BranchCleanupEntry>
+              <option name="deletions">
+                <list>
+                  <BranchDeletion>
+                    <option name="hash" value="62391c6e4709594d304773bf14dee76c261b52f9" />
+                    <option name="name" value="ch04" />
+                  </BranchDeletion>
+                </list>
+              </option>
+              <option name="timestamp" value="1775700342924" />
+            </BranchCleanupEntry>
+          </list>
+        </option>
+      </BranchesCleanupHistory>
+    </option>
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -94,24 +109,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="ch05" />
-                    <option name="lastUsedInstant" value="1773731239" />
+                    <option name="branchName" value="ch06" />
+                    <option name="lastUsedInstant" value="1775700352" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="ch04" />
-                    <option name="lastUsedInstant" value="1773285524" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="ch03" />
-                    <option name="lastUsedInstant" value="1773285254" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="ch01" />
-                    <option name="lastUsedInstant" value="1773285229" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1772681710" />
+                    <option name="branchName" value="ch05-2" />
+                    <option name="lastUsedInstant" value="1775700351" />
                   </RecentBranch>
                 </list>
               </option>
@@ -122,22 +125,22 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tidto/spring_dev.git&quot;,
-    &quot;accountId&quot;: &quot;8b054369-4273-4008-831f-30b19baac436&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tidto/spring_dev.git",
+    "accountId": "8b054369-4273-4008-831f-30b19baac436"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;tidto&quot;,
-    &quot;repository&quot;: &quot;spring_dev&quot;
+    "owner": "tidto",
+    "repository": "spring_dev"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -145,71 +148,72 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="3AQEvvwMkgwqD80ajW6uyVZXOxV" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="3AQFJmn9tUTUCJGDCFarBSxlxbA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.JUnitCycleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JUnitTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestCont (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestCont.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestControllerTest.getAllMembers.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestControllerTest.getTestAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring_dev [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring_dev [:spring_develop.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring_dev 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.SpringBootDeveloperApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ch05&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ditto/spring_dev&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/YJU/IdeaProjects/spring_dev/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.C:/Users/YJU/IdeaProjects/springboot-developer.executor": "Run",
+    "Gradle.HelloControllerTest.executor": "Run",
+    "Gradle.HelloControllerTest.getTestAPI.executor": "Run",
+    "Gradle.HelloTest.executor": "Run",
+    "Gradle.HelloTest.getTestAPI.executor": "Run",
+    "Gradle.JUnitCycleTest.executor": "Run",
+    "Gradle.JUnitQuiz.executor": "Run",
+    "Gradle.JUnitTest.executor": "Run",
+    "Gradle.JUnitTest.juniFailedTest.executor": "Run",
+    "Gradle.JUnitTest.juniTest.executor": "Run",
+    "Gradle.MemberRepositoryTest.executor": "Run",
+    "Gradle.TestControllerTest.executor": "Run",
+    "Gradle.TestControllerTest.getHelloAPI.executor": "Run",
+    "Gradle.TestControllerTest.getTestAPI.executor": "Run",
+    "Gradle.springboot-developer [dependencies].executor": "Run",
+    "Gradle.springboot-developer 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "ch06에 #4개",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/YJU/IdeaProjects/springboot-developer/src/main/java/me/ming/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\YJU\IdeaProjects\spring_dev\src\main\resources\static" />
+      <recent name="C:\Users\YJU\IdeaProjects\springboot-developer\src\main\resources\backup" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example.spring_develop" />
+      <recent name="me.ming.springdeveloper" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestControllerTest">
-    <configuration name="TestCont (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MemberRepositoryTest">
+    <configuration name="HelloTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -222,7 +226,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.spring_develop.TestCont&quot;" />
+            <option value="&quot;me.ming.springdeveloper.HelloTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -236,7 +240,7 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestCont" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloTest.getTestAPI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -249,7 +253,34 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TestCont&quot;" />
+            <option value="&quot;me.ming.springdeveloper.HelloTest.getTestAPI&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;me.ming.springdeveloper.MemberRepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -276,7 +307,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.spring_develop.TestControllerTest&quot;" />
+            <option value="&quot;me.ming.springdeveloper.TestControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -290,74 +321,26 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestControllerTest.getAllMembers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.spring_develop.TestControllerTest.getAllMembers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestControllerTest.getTestAPI" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.spring_develop.TestControllerTest.getTestAPI&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <GradleProfilingDisabled>false</GradleProfilingDisabled>
-      <GradleCoverageDisabled>false</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring_dev.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="spring_develop.SpringBootDeveloperApplication" />
+    <configuration name="SpringBootDeveloperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-developer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.ming.springdeveloper.SpringBootDeveloperApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.ming.springdeveloper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberRepositoryTest" />
+        <item itemvalue="Spring Boot.SpringBootDeveloperApplication" />
+        <item itemvalue="Gradle.HelloTest" />
+        <item itemvalue="Gradle.HelloTest.getTestAPI" />
         <item itemvalue="Gradle.TestControllerTest" />
-        <item itemvalue="Gradle.TestControllerTest.getTestAPI" />
-        <item itemvalue="Gradle.TestCont (1)" />
-        <item itemvalue="Gradle.TestCont" />
-        <item itemvalue="Gradle.TestControllerTest.getAllMembers" />
       </list>
     </recent_temporary>
   </component>
@@ -369,94 +352,60 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="StructureViewState">
-    <option name="selectedTab" value="논리" />
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6417a9ab-f3a7-4ded-8c68-cd6ce9edbfb7" name="Changes" comment="" />
-      <created>1772516696583</created>
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="cddedc20-3d58-4f9d-9c73-6b8b329878c9" name="변경" comment="" />
+      <created>1772516917212</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772516696583</updated>
-      <workItem from="1772517869303" duration="325000" />
-      <workItem from="1772518206035" duration="2497000" />
-      <workItem from="1772608154641" duration="4000" />
-      <workItem from="1772676879777" duration="2961000" />
-      <workItem from="1772680380228" duration="489000" />
-      <workItem from="1772680948750" duration="9000" />
-      <workItem from="1772681218906" duration="1090000" />
-      <workItem from="1773032599789" duration="52000" />
-      <workItem from="1773122657865" duration="6000" />
-      <workItem from="1773122669190" duration="5019000" />
-      <workItem from="1773212676335" duration="10000" />
-      <workItem from="1773281214784" duration="5502000" />
-      <workItem from="1773625546298" duration="4000" />
-      <workItem from="1773648152273" duration="6000" />
-      <workItem from="1773727845204" duration="4377000" />
-      <workItem from="1773732645987" duration="2211000" />
-      <workItem from="1773885894788" duration="6318000" />
-      <workItem from="1774332420137" duration="3897000" />
-      <workItem from="1774939435943" duration="186000" />
-      <workItem from="1774939632533" duration="70000" />
+      <updated>1772516917212</updated>
+      <workItem from="1772516988797" duration="1502000" />
+      <workItem from="1772518515057" duration="2138000" />
+      <workItem from="1772608148570" duration="1575000" />
+      <workItem from="1772675238391" duration="4824000" />
+      <workItem from="1772680782571" duration="1809000" />
+      <workItem from="1773042923603" duration="1350000" />
+      <workItem from="1773116051910" duration="9657000" />
+      <workItem from="1773211421852" duration="1250000" />
+      <workItem from="1773280361995" duration="6880000" />
+      <workItem from="1773637075263" duration="46000" />
+      <workItem from="1773646789199" duration="597000" />
+      <workItem from="1773726719405" duration="6972000" />
+      <workItem from="1773816901659" duration="811000" />
+      <workItem from="1773884382591" duration="6984000" />
+      <workItem from="1773892127199" duration="163000" />
+      <workItem from="1774331552770" duration="5584000" />
+      <workItem from="1774489364961" duration="5220000" />
+      <workItem from="1774857814325" duration="862000" />
+      <workItem from="1774936525140" duration="6757000" />
+      <workItem from="1775095319931" duration="3866000" />
+      <workItem from="1775698002910" duration="1827000" />
     </task>
-    <task id="LOCAL-00001" summary="Changes">
+    <task id="LOCAL-00001" summary="init: Spring Boot project setup, controller test">
       <option name="closed" value="true" />
-      <created>1772680745342</created>
+      <created>1772681089243</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1772680745342</updated>
+      <updated>1772681089243</updated>
     </task>
-    <task id="LOCAL-00002" summary="Changes">
+    <task id="LOCAL-00002" summary="spring JPA, h2, lombok, data.sql, application.yml, Member">
       <option name="closed" value="true" />
-      <created>1772681430767</created>
+      <created>1773285387465</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1772681430767</updated>
+      <updated>1773285387465</updated>
     </task>
-    <task id="LOCAL-00003" summary="Changes lombok, yml, h2db">
+    <task id="LOCAL-00003" summary="JUnit 테스트 실습 코드 추가">
       <option name="closed" value="true" />
-      <created>1773285291256</created>
+      <created>1774336583537</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1773285291256</updated>
+      <updated>1774336583537</updated>
     </task>
-    <task id="LOCAL-00004" summary="Changes lombok, yml, h2db">
-      <option name="closed" value="true" />
-      <created>1773731856753</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1773731856753</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changes lombok, yml, h2db">
-      <option name="closed" value="true" />
-      <created>1773733539971</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1773733539971</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Changes lombok, yml, h2db">
-      <option name="closed" value="true" />
-      <created>1773892317198</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1773892317198</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Changes lombok, yml, h2db">
-      <option name="closed" value="true" />
-      <created>1774333477401</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1774333477401</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,32 +423,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes" />
-    <MESSAGE value="Changes lombok, yml, h2db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes lombok, yml, h2db" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/spring_develop/Main.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/spring_develop/TestControllerTest.java</url>
-          <line>59</line>
-          <properties class="org.example.spring_develop.TestControllerTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="init: Spring Boot project setup, controller test" />
+    <MESSAGE value="spring JPA, h2, lombok, data.sql, application.yml, Member" />
+    <MESSAGE value="JUnit 테스트 실습 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit 테스트 실습 코드 추가" />
   </component>
 </project>
