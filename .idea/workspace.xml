@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ba4348-7b36-4f63-9bdf-cd2f05ead348" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="87ba4348-7b36-4f63-9bdf-cd2f05ead348" name="Changes" comment="JUnit 테스트 실습 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitCycleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitQuiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/insert-members.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ch06-2" />
+        <entry key="$PROJECT_DIR$" value="ch07" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +51,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="ch07-2" />
+                    <option name="lastUsedInstant" value="1779939971" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="ch07" />
                     <option name="lastUsedInstant" value="1779776335" />
@@ -119,7 +111,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringBootDeveloperApplication.executor": "Run",
-    "git-widget-placeholder": "ch07",
+    "git-widget-placeholder": "ch07-2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -302,8 +294,18 @@
       <workItem from="1775717329389" duration="122000" />
       <workItem from="1776753615993" duration="614000" />
       <workItem from="1776925507912" duration="186000" />
-      <workItem from="1779776321056" duration="468000" />
+      <workItem from="1779776321056" duration="4318000" />
+      <workItem from="1779935091992" duration="709000" />
     </task>
+    <task id="LOCAL-00001" summary="JUnit 테스트 실습 코드 추가">
+      <option name="closed" value="true" />
+      <created>1779777036884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779777036884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +333,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <MESSAGE value="JUnit 테스트 실습 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit 테스트 실습 코드 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
