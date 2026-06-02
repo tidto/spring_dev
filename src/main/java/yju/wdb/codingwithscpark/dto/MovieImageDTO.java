@@ -9,8 +9,6 @@ public class MovieImageDTO {
 	private String imageName;
 	private String path;
 	
-	
-	
 	public MovieImageDTO(String uuid, String imageName, String path) {
 		super();
 		this.uuid = uuid;

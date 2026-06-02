@@ -7,8 +7,7 @@ public class UploadResultDTO {
 	private String fileName;
 	private String uuid;
 	private String folderPath;
-	
-	
+
 	public String getThumbnailURL() {
 		try {
 			return URLEncoder.encode(folderPath+ "/s_" + uuid + "_" + fileName, "UTF-8");
@@ -35,8 +34,6 @@ public class UploadResultDTO {
 		this.uuid = uuid;
 		this.folderPath = folderPath;
 	}
-
-	
 
 	public UploadResultDTO() {
 		super();

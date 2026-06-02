@@ -63,8 +63,6 @@ public class BlogApiControllerTest {
         assertThat(articles.get(0).getTitle()).isEqualTo(title);
     }
 
-
-
     @DisplayName("findAllArticles : 블로그 글 목록 조회 성공")
     @Test
     public void findAllArticles() throws Exception {

@@ -21,8 +21,7 @@ public class GuestBookDTO {
 		this.regDate = regDate;
 		this.modDate = modDate;
 	}
-	
-	
+
 	public GuestBookDTO(Long gno, String title, String content, String writer) {
 		this(title, content, writer);
 		this.gno = gno;
@@ -34,14 +33,12 @@ public class GuestBookDTO {
 		this.writer = writer;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "GuestBookDTO [gno=" + gno + ", title=" + title + ", content=" + content + ", writer=" + writer
 				+ ", regDate=" + regDate + ", modDate=" + modDate + "]";
 	}
 
-	
 	public GuestBookDTO() {
 		
 	}

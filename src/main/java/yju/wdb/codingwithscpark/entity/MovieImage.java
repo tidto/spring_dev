@@ -15,8 +15,6 @@ public class MovieImage extends BaseEntity {
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Movie movie;
-	
-	
 
 	public MovieImage() {
 		super();
@@ -51,11 +49,9 @@ public class MovieImage extends BaseEntity {
 		return inum;
 	}
 
-
 	public String getUuid() {
 		return uuid;
 	}
-
 
 	public String getImageName() {
 		return imageName;
@@ -65,10 +61,8 @@ public class MovieImage extends BaseEntity {
 		return path;
 	}
 
-
 	public Movie getMovie() {
 		return movie;
 	}
-
 	
 }

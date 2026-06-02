@@ -9,7 +9,6 @@ public class Movie extends BaseEntity {
 	private Long mno;
 	
 	private String title;
-	
 
 	public Movie() {
 		super();

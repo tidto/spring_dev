@@ -9,8 +9,7 @@ public class ReplyDTO {
 	private Long bno;
 	private LocalDateTime regDate;
 	private LocalDateTime modDate;
-	
-	
+
 	public ReplyDTO(Long rno, String text, String replyer, LocalDateTime regDate, LocalDateTime modDate) {
 		this.regDate = regDate;
 		this.modDate = modDate;
