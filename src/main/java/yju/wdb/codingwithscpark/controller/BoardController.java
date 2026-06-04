@@ -27,8 +27,7 @@ public class BoardController {
 		BoardDTO dto = boardService.get(bno);
 		model.addAttribute("dto", dto);
 	}
-	
-	
+
 	@PostMapping("/remove")
 	public String remove(long bno, RedirectAttributes redirectAttributes) {
 		log.debug("[Post] remove:" + bno);

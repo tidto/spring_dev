@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="87ba4348-7b36-4f63-9bdf-cd2f05ead348" name="Changes" comment="JUnit 테스트 실습 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/GuestBookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/GuestBookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/MovieImageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/MovieImageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/PageResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/PageResultDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/ReplyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/ReplyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/UploadResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/dto/UploadResultDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/entity/MovieImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/entity/MovieImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/BlogApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/su/springdeveloper/BlogApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/GuestbookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/GuestbookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/ReplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/ReplyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/UploadTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yju/wdb/codingwithscpark/controller/UploadTestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="ch8" />
+                    <option name="lastUsedInstant" value="1780380505" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="ch07-2" />
                     <option name="lastUsedInstant" value="1779939971" />
                   </RecentBranch>
@@ -84,6 +86,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tidto/spring_dev.git&quot;,
     &quot;accountId&quot;: &quot;8b054369-4273-4008-831f-30b19baac436&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;tidto&quot;,
+    &quot;repository&quot;: &quot;spring_dev&quot;
   }
 }</component>
   <component name="McpProjectServerCommands">
@@ -119,7 +131,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.SpringBootDeveloperApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ch07-2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ch8&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/su/Documents/spring/SpringBase/springboot-developer/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -304,7 +316,8 @@
       <workItem from="1776925507912" duration="186000" />
       <workItem from="1779776321056" duration="4318000" />
       <workItem from="1779935091992" duration="742000" />
-      <workItem from="1780380325057" duration="109000" />
+      <workItem from="1780380325057" duration="1458000" />
+      <workItem from="1780538964742" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="JUnit 테스트 실습 코드 추가">
       <option name="closed" value="true" />

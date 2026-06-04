@@ -59,7 +59,6 @@ public class GuestbookController {
 	@GetMapping("/list")
 	public void list(PageRequestDTO pageRequestDTO, Model model) {
 		log.info("list..........." + pageRequestDTO);
-		
 		model.addAttribute("result", service.getList(pageRequestDTO));
 	}
 	
@@ -77,7 +76,6 @@ public class GuestbookController {
 		redirectAttributes.addFlashAttribute("msg", gno);
 		
 		return "redirect:/guestbook/list";
-		
 	}
 }
 

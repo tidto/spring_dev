@@ -51,7 +51,6 @@ public class UploadController {
 			return new ResponseEntity<>(false, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
-	
 	@GetMapping("/display")
 	public ResponseEntity<byte[]> getFile(String fileName) {
 		ResponseEntity<byte[]> result = null;
@@ -81,10 +80,8 @@ public class UploadController {
 			log.error(e.getMessage());
 			result = new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
-		
 		return result;
 	}
-	
 	@PostMapping("/uploadAjax")
 	public ResponseEntity<List<UploadResultDTO>> uploadFile(MultipartFile[] uploadFiles) {
 		List<UploadResultDTO> resultDTOList = new ArrayList<>();
@@ -129,7 +126,6 @@ public class UploadController {
 				e.printStackTrace();
 			}
 		}
-		
 		return new ResponseEntity<>(resultDTOList, HttpStatus.OK);
 	}
 	
@@ -143,7 +139,6 @@ public class UploadController {
 		if (uploadPathFolder.exists() == false) {
 			uploadPathFolder.mkdirs();
 		}
-		
 		return folderPath;
 	}
 }

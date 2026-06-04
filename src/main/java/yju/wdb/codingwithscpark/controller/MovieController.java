@@ -23,7 +23,6 @@ public class MovieController {
 		
 	}
 	
-	
 	@PostMapping("/register") 
 	public String register(MovieDTO movieDTO, RedirectAttributes redirectAttributes) {
 		log.info("movieDTO: " + movieDTO);

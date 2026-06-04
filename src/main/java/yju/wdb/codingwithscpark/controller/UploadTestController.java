@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class UploadTestController {
 	@GetMapping("/uploadEx")
 	public void uploadEx() {
-		
 	}
 
 }
