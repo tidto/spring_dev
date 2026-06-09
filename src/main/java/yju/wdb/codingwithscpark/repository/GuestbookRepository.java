@@ -5,6 +5,6 @@ import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 
 import yju.wdb.codingwithscpark.entity.GuestBook;
 
-public interface  GuestbookRepository extends JpaRepository<GuestBook, Long>, QuerydslPredicateExecutor<GuestBook> {
+public interface   GuestbookRepository extends JpaRepository<GuestBook, Long>, QuerydslPredicateExecutor<GuestBook> {
 
 }

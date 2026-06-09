@@ -9,7 +9,7 @@ import yju.wdb.codingwithscpark.entity.M_Member;
 import yju.wdb.codingwithscpark.entity.Movie;
 import yju.wdb.codingwithscpark.entity.Review;
 
-public interface ReviewRepository extends JpaRepository<Review, Long> {
+public interface  ReviewRepository extends JpaRepository<Review, Long> {
 	
 	void deleteByMember(M_Member member);
 	

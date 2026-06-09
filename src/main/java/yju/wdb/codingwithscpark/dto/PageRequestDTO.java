@@ -7,7 +7,7 @@ import org.springframework.data.domain.Sort;
 import lombok.Data;
 
 @Data
-public class PageRequestDTO {
+public class  PageRequestDTO {
 	private int page;
 	private int size;
 	private String type;

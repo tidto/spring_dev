@@ -3,7 +3,7 @@ package yju.wdb.codingwithscpark.entity;
 import javax.persistence.*;
 
 @Entity
-public class Board extends BaseEntity {
+public class  Board extends BaseEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long bno;

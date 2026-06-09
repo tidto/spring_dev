@@ -27,7 +27,7 @@ public class ReplyController {
 		replyService.modify(replyDTO);
 		return new ResponseEntity<>("success", HttpStatus.OK);
 	}
-	
+
 	@DeleteMapping("/{rno}")
 	public ResponseEntity<String> remove(@PathVariable("rno") Long rno) {
 		log.info("Delete RNO:" + rno);

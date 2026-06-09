@@ -2,7 +2,7 @@ package yju.wdb.codingwithscpark.dto;
 
 import java.util.*;
 
-public class MovieDTO {
+public class  MovieDTO {
 	private Long mno;
 	private String title;
 	private List<MovieImageDTO> imageDTOList = new ArrayList<>();
