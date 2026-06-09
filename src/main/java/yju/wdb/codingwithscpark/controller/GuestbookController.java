@@ -43,7 +43,7 @@ public class GuestbookController {
 		redirectAttributes.addFlashAttribute("msg", gno);
 		return "redirect:/guestbook/list";
 	}
-	
+
 	@GetMapping({"/read", "/modify"})
 	public void read(long gno, @ModelAttribute("requestDTO") PageRequestDTO requestDTO, Model model) {
 		log.debug("[Get]read|modify [" + gno + "]");

@@ -44,7 +44,7 @@ public class PageResultDTO <DTO, Entity>{
 		pageList = IntStream.rangeClosed(start, end).boxed().collect(Collectors.toList());
 	}
 	
-	public List<DTO> getDtoList() {
+	public List< DTO> getDtoList() {
 		return dtoList;
 	}
 
