@@ -3,7 +3,7 @@ package yju.wdb.codingwithscpark.entity;
 import javax.persistence.*;
 
 @Entity
-public class   Member extends BaseEntity {
+public class    Member extends BaseEntity {
 	@Id
 	@Column(length = 32)
 	private String email;
